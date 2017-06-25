@@ -43,5 +43,15 @@ babel --version # global
 node_modules/.bin/babel --version #local
 ```
 
+## Global 
 
+Sample output
+
+```
+$ babel src --presets es2015
+"use strict";
+
+var greeting = "Hi";
+console.log("-- " + greeting + " Craig");
+```
 
