@@ -55,3 +55,16 @@ var greeting = "Hi";
 console.log("-- " + greeting + " Craig");
 ```
 
+Sample build
+
+```
+$ babel src --presets es2015 --out-dir build
+src/main.js -> build/main.js
+```
+
+```
+$ babel src --presets es2015 -d build
+src/main.js -> build/main.js
+```
+
+
