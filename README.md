@@ -136,6 +136,18 @@ Given the above file the command can be shortened to:
 babel src -o build/bundle.js
 ```
 
+## Installing Updated Babel
+
+```
+npm install --save-dev babel-cli babel-preset-env
+```
+
+## Install AMD Module Transformer
+
+```
+npm install --save-dev babel-plugin-transform-es2015-modules-amd
+```
+
 
 
 
